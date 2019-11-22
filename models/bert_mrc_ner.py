@@ -38,7 +38,7 @@ import torch.nn as nn
 from torch.nn import CrossEntropyLoss 
 
 
-from layers.bert_basic_model import BertModel, PreTrainedBertModel, BertConfig  
+from layers.bert_basic_layer import BertModel, PreTrainedBertModel, BertConfig  
 
 
 

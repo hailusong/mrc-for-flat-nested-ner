@@ -25,7 +25,7 @@ from torch.nn import CrossEntropyLoss
 
 
 from layers.classifier import * 
-from layers.bert_basic_model import * 
+from layers.bert_basic_layer import * 
 from layers.bert_layernorm import BertLayerNorm 
 
 

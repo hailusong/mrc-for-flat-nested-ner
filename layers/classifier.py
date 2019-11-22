@@ -20,7 +20,7 @@ if root_path not in sys.path:
     sys.path.insert(0, root_path)
 
 
-from layers.bert_basic_model import * 
+from layers.bert_basic_layer import * 
 from layers.bert_layernorm import BertLayerNorm 
 
 
