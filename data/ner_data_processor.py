@@ -32,7 +32,7 @@ import torch.nn as nn
 from torch.utils.data import TensorDataset, DataLoader, RandomSampler, SequentialSampler 
 
 
-from data.query_ner_data_utils import read_query_ner_examples 
+from query_ner_data_utils import read_query_ner_examples 
 
 
 
