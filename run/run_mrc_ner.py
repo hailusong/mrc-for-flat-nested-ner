@@ -47,7 +47,7 @@ from data.model_config import Config
 from data.ner_data_processor import * 
 from data.mrc_ner_data_utils import convert_examples_to_features
 from models.bert_mrc_ner import BertMRCNER
-from layers.loss_funcs import sigmoid2label
+# from layers.loss_funcs import sigmoid2label
 from utils.bert_tokenizer import BertTokenizer4Tagger 
 from utils.mrc_ner_evaluate  import query_ner_compute_performance
 
